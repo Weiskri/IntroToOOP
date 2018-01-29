@@ -10,22 +10,22 @@ namespace IntroToOOP
     {
         static void Main(string[] args)
         {
-            Cat firstCat = new Cat();
-            firstCat.Name = "Mr.Fuzzy";
+            //Cat firstCat = new Cat();
+            //firstCat.Name = "Mr.Fuzzy";
 
-            Cat secondCat = new Cat("Midnight", 14, "black");
+            //Cat secondCat = new Cat("Midnight", 14, "black");
 
-            Console.WriteLine(firstCat.Name);
-            Console.WriteLine(secondCat.Name);
+            //Console.WriteLine(firstCat.Name);
+            //Console.WriteLine(secondCat.Name);
 
-            firstCat.Eat(); // calling the eat method on the first cat object
+            //firstCat.Eat(); // calling the eat method on the first cat object
 
-            secondCat.Meow();
+            //secondCat.Meow();
 
-            firstCat.HairLength = "nice and short";
-            secondCat.HairLength = "too long";
-            Console.WriteLine(firstCat.Hairball());
-            Console.WriteLine(secondCat.Hairball());
+            //firstCat.HairLength = "nice and short";
+            //secondCat.HairLength = "too long";
+            //Console.WriteLine(firstCat.Hairball());
+            //Console.WriteLine(secondCat.Hairball());
 
             //Console.WriteLine("Here are the characteristics of the dog:");
             //Dog firstDog = new Dog();
